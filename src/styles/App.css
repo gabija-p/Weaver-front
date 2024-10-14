@@ -1,3 +1,5 @@
+@import './buttons.css';
+
 .App {
   text-align: center;
 }
@@ -38,50 +40,8 @@
   }
 }
 
-.button {
-  border-radius: 50px;
-  border: none;
-  width: 22%;
-  height: 60px;
-  color: aliceblue;
-  font-size: 25px;
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-
-.button:active {
-  background-color: #48be5c;
-}
-
-.title {
-  font-size: 400%;
-  color: #fff;
-}
-
 .navigation-bar {
   display: flex;
   justify-content: flex-end;
-}
-
-.btn.btn-success {
- background-color: #57e56e;
-}
-
-.btn.btn-success:hover {
-  background-color: #48be5c;
-  border: none;
-}
-
-.btn {
-  border: none;
-}
-
-.btn.btn-link {
-  text-decoration: none !important;
-  color: #212121;
-}
-
-.btn.btn-link:hover {
-  color: #fff;
 }
 

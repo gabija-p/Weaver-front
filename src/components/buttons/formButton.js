@@ -1,4 +1,4 @@
-import '../../App.css';
+import '../../styles/App.css';
 
 export default function NavigationButton({ title, page, handleClick }){
     return (
