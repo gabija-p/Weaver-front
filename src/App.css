@@ -14,14 +14,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #476ebc;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 100px;
 }
 
 .App-link {
@@ -35,4 +36,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  border-radius: 50px;
+  border: none;
+  background-color: #61fb7a;
+  width: 22%;
+  height: 60px;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.button:active {
+  background-color: #48be5c;
+}
+
+.title {
+  font-size: 300%;
 }
