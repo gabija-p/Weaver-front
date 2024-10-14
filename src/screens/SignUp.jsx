@@ -1,4 +1,4 @@
-import MyButton from '../button';
+import FormButton from '../components/buttons/formButton';
 import React from "react";
 
 const SignUp = () => {
@@ -8,7 +8,7 @@ const SignUp = () => {
             <p className='title'>
               Sign Up
             </p>
-            <MyButton title="Sign Up"/>
+            <FormButton title="Sign Up"/>
           </header>
         </div>
     );

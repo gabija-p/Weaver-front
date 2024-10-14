@@ -1,5 +1,5 @@
-import SignUp from './components/screens/SignUp.jsx';
-import Home from './components/screens/Home.jsx';
+import SignUp from './screens/SignUp.jsx';
+import Home from './screens/Home.jsx';
 import {
   Route,
   Routes
